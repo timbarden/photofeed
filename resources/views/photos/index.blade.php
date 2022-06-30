@@ -19,7 +19,7 @@
             @foreach ($photos as $photo)
             <li class="gallery__item col">
                 <a class="gallery__item__link" href="/storage/cover_images/{{ $photo->full_image }}" data-src="/storage/cover_images/{{ $photo->full_image }}">
-                    <img src="/storage/cover_images/{{ $photo->thumb_image }}" alt="{{ $photo->thumb_image }}">
+                    <img src="/storage/cover_images/{{ $photo->thumb_image }}" alt="{{ $photo->thumb_image }}" loading="lazy">
                     <div class="gallery__item__txt">
                         @if (!$photo->date_taken == "0")
                             <p>{{ date("M Y", $photo->date_taken) }}</p>
