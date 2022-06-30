@@ -1,4 +1,4 @@
-name:_Deploy Application
+name: Deploy Application
 
 on:
   push:
@@ -9,7 +9,7 @@ jobs:
   create-deployment-artifacts:
     name: Create deployment artifacts
     runs-on: ubuntu-latest
-    steps: 
+    steps:
       - uses: actions/checkout@v2
 
       - name: Compile CSS and JS
