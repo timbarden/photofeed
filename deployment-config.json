@@ -1,5 +1,12 @@
 [
     {
-        "name": ""
+        "name": "server-1",
+        "ip": "",
+        "username": "",
+        "password": "",
+        "port": "22",
+        "beforeHooks": "",
+        "afterHooks": "",
+        "path": "/var/www/html"
     }
 ]
