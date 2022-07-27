@@ -4,7 +4,7 @@
     <div class="main__header">
         <div>
             <h1>Photos</h1> 
-            <p>There are {{ count($photos ) }} photos in this gallery</p>
+            <!--<p>There are {{ count($photos ) }} photos in this gallery</p>-->
         </div>
     
         @if(!Auth::guest())
