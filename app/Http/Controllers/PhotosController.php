@@ -90,7 +90,7 @@ class PhotosController extends Controller
             $photo->thumb_image = $thumbToStore;
             $photo->save();
         }
-      return redirect('/photos')->with('success', 'Photo(s) uploaded');
+        return redirect('/photos')->with('success', 'Photo(s) uploaded');
     }
     
     /**
